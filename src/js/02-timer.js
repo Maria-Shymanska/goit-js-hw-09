@@ -7,11 +7,6 @@ const daysTimer = document.querySelector('span[data-days]');
 const hoursTimer = document.querySelector('span[data-hours]');
 const minutesTimer = document.querySelector('span[data-minutes]');
 const secondsTimer = document.querySelector('span[data-seconds]');
-
-// ----styles---//
-const timerDataTreaker = (document.querySelector('.timer').style.fontSize =
-  '24px');
-
 let inputDates = null;
 
 startBtn.addEventListener('click', onClickStartButton);
